@@ -9,9 +9,9 @@ signing:
 
 spring:
   datasource:
-    url: jdbc:mysql://mysql:3306/luz
+    url: jdbc:mysql://mysql:3306/test?characterEncoding=utf8
     username: root
-    password: beinglee
+    password: root
     driver-class-name: com.mysql.jdbc.Driver
     platform: mysql
   jpa:
