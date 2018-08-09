@@ -3,7 +3,7 @@ spring.jpa.database: "MYSQL"
 spring.datasource.platform: mysql
 spring.jpa.show-sql: "true"
 spring.database.driverClassName: "org.mysql.Driver"
-spring.datasource.url: "jdbc:mysql://localhost:3306/luz"
+spring.datasource.url: "jdbc:mysql://database:3306/luz"
 spring.datasource.username: "root"
 spring.datasource.password: "{cipher}e8f6782f36dc6a1a094838dd6a20807bc8989e4d1b81a7a187b286b5f915671b"
 spring.datasource.testWhileIdle: "true"
