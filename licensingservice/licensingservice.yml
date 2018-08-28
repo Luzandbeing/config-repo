@@ -1,23 +1,14 @@
-example:
-  property: "I AM IN THE DEFAULT AS being"
-
-redis:
-  server: redis
-  port: 6379
-signing:
-  key: 345345fsdfsf5345
-
-spring:
-  datasource:
-    url: jdbc:mysql://database:3306/eagle_eye_local
-    username: being
-    password: {cipher}da3492a22c2de85c5d6f4738967a9ec7f39f06a10383f0f41544a15075cd6e20
-    driver-class-name: com.mysql.jdbc.Driver
-    platform: mysql
-  jpa:
-    database: MYSQL
-    show-sql: true
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQL5Dialect
-
+example.property: "I AM IN THE DEFAULT"
+spring.jpa.database: "MYSQL"
+spring.datasource.platform:  "mysql"
+spring.jpa.show-sql: "true"
+spring.database.driverClassName: "com.mysql.jdbc.Driver"
+spring.datasource.url: "jdbc:mysql://database:3306/eagle_eye_local"
+spring.datasource.username: "being"
+spring.datasource.password: "{cipher}da3492a22c2de85c5d6f4738967a9ec7f39f06a10383f0f41544a15075cd6e20"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.MySQL5Dialect"
+redis.server: "redis"
+redis.port: "6379"
+signing.key: "345345fsdfsf5345"
